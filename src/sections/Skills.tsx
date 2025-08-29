@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from '../components/Section';
-import { Code, Database, Cpu, Server, Smartphone, Palette } from 'lucide-react';
+import { Code, Database, Server, Smartphone, Palette } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
@@ -8,10 +8,9 @@ const Skills: React.FC = () => {
       icon: <Code size={24} />,
       title: 'Desenvolvimento Frontend',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'Next.js', level: 90 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'JavaScript', level: 95 },
+        { name: 'React.JS', level: 90 },
+        { name: 'TypeScript', level: 70 },
+        { name: 'JavaScript', level: 90 },
         { name: 'HTML/CSS', level: 90 }
       ]
     },
@@ -19,11 +18,9 @@ const Skills: React.FC = () => {
       icon: <Server size={24} />,
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 75 },
-        { name: 'Java', level: 70 },
-        { name: 'REST APIs', level: 90 },
-        { name: 'GraphQL', level: 80 }
+        { name: 'Node.js', level: 80 },
+        { name: 'PHP', level: 80 },
+        { name: 'C#', level: 80 },
       ]
     },
     {
@@ -31,18 +28,8 @@ const Skills: React.FC = () => {
       title: 'Banco de Dados',
       skills: [
         { name: 'OracleSQL', level: 85 },
-        { name: 'MongoDB', level: 80 },
         { name: 'MySQL', level: 90 },
         { name: 'Supabase', level: 90 }
-      ]
-    },
-    {
-      icon: <Cpu size={24} />,
-      title: 'DevOps & Cloud',
-      skills: [
-   
-        { name: 'AWS', level: 75 },
-        { name: 'Linux', level: 80 }
       ]
     },
     {
@@ -51,14 +38,13 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'React Native', level: 80 },
         { name: 'Flutter', level: 70 },
-        { name: 'iOS/Android', level: 75 }
+        { name: 'Kotlin', level: 75 }
       ]
     },
     {
       icon: <Palette size={24} />,
       title: 'Design & UX',
       skills: [
-        { name: 'UI/UX', level: 75 },
         { name: 'Figma', level: 80 },
         { name: 'Canva', level: 70 }
       ]

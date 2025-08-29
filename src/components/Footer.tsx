@@ -23,11 +23,8 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">
-              Daniel<span className="text-slate-900 dark:text-white">Vieira</span>
+              Daniel<span className="text-slate-900 dark:text-white"> Vieira</span>
             </h2>
-            <p className="mt-2 text-slate-600 dark:text-slate-400">
-              Building amazing digital experiences
-            </p>
           </div>
           
           <div className="flex flex-wrap items-center justify-center space-x-4">
@@ -47,9 +44,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-700/50 text-center text-slate-500 dark:text-slate-400 text-sm">
-          <p>© {currentYear} Daniel Vieira. All rights reserved.</p>
-          <p className="mt-2"> ❤️
-          </p>
+          <p>© {currentYear} Daniel Vieira. Direitos Reservados</p>
         </div>
       </div>
     </footer>

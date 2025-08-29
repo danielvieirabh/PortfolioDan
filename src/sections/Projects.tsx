@@ -16,12 +16,11 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'Younik Hype',
+      title: 'Projeto Freelance (Grupo-Elite)',
       description: 'Plataforma de e-commerce especializada em produtos de streetwear e moda urbana.',
-      image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1000&auto=format&fit=crop',
-      tags: ['React', 'Node.js', 'PostgreSQL'],
-      liveUrl: 'https://younik-hype.vercel.app/',
-      githubUrl: 'https://github.com/Danzinxit/YounikHype',
+      image: '/freela.png',
+      tags: ['React', 'Node.js', 'MySql'],
+      liveUrl: 'https://www.grupoeliterepresentacoes.com.br/',
       category: 'web'
     },
     {
@@ -29,20 +28,20 @@ const Projects: React.FC = () => {
       title: 'IA Chat',
       description: 'Aplicativo de chat com inteligência artificial para conversas personalizadas.',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop',
-      tags: ['React', 'TypeScript', 'OpenAI'],
-      liveUrl: 'https://iachatdan.vercel.app/',
-      githubUrl: 'https://github.com/Danzinxit/chatia',
+      tags: ['React', 'TypeScript', 'OpenAI','Gemini Pro'],
+      liveUrl: 'https://chatcraftia.vercel.app',
+      githubUrl: 'https://github.com/Danzinxit/iadanzin',
       category: 'web'
     },
     {
       id: 3,
-      title: 'Power BI em Codigo',
-      description: 'Sistema de Power BI feito em Next.js sobre apostadores do brasileirao',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop',
-      tags: ['Next.js', 'TypeScript', 'MongoDB'],
-      liveUrl: 'https://powerbibrasileirao.vercel.app/',
-      githubUrl: 'https://github.com/Danzinxit/PowerBiCodigoBraslieirao',
-      category: 'web'
+      title: 'Projeto Secreto em (C#)',
+      description: 'Um projeto confidencial desenvolvido em C# que demonstra habilidades avançadas em desenvolvimento backend e arquitetura de sistemas. Recrutadores interessados em detalhes técnicos e impacto do projeto são convidados a entrar em contato para uma discussão aprofundada.',
+      image: '/hack.avif',
+      tags: ['C#'],
+      liveUrl: '',
+      githubUrl: '',
+      category: 'Software'
     }
   ];
 
@@ -130,7 +129,7 @@ const Projects: React.FC = () => {
                     size="sm"
                     icon={<ExternalLink size={16} />}
                   >
-                    Demo
+                    Abrir
                   </Button>
                 </a>
               </CardFooter>
