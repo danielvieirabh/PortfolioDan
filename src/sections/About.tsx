@@ -1,29 +1,24 @@
 import React from 'react';
 import Section from '../components/Section';
-import { Code, Database, Cpu, Server } from 'lucide-react';
+import { Code, Database, Cpu } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
     {
       icon: <Code size={24} />,
       title: 'Desenvolvimento Frontend',
-      description: 'Experiência em React, Next.js, TypeScript e outras tecnologias modernas de frontend.'
+      description: 'Experiência em React, JavaScript e outras tecnologias modernas de frontend.'
     },
     {
       icon: <Database size={24} />,
       title: 'Banco de Dados',
-      description: 'Conhecimento em PostgreSQL, MongoDB e outras soluções de banco de dados.'
+      description: 'Conhecimento em MySql, Supabase e outras soluções de banco de dados.'
     },
     {
       icon: <Cpu size={24} />,
       title: 'Arquitetura de Software',
       description: 'Capacidade de projetar e implementar arquiteturas escaláveis e eficientes.'
     },
-    {
-      icon: <Server size={24} />,
-      title: 'DevOps',
-      description: 'Experiência com Docker, CI/CD e outras ferramentas de DevOps.'
-    }
   ];
 
   return (
