@@ -8,8 +8,8 @@ const Skills: React.FC = () => {
       icon: <Code size={24} />,
       title: 'Desenvolvimento Frontend',
       skills: [
-        { name: 'React.JS', level: 90 },
-        { name: 'TypeScript', level: 70 },
+        { name: 'React.JS', level: 80 },
+        { name: 'TypeScript', level: 80 },
         { name: 'JavaScript', level: 90 },
         { name: 'HTML/CSS', level: 90 }
       ]
@@ -18,9 +18,10 @@ const Skills: React.FC = () => {
       icon: <Server size={24} />,
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 80 },
+        { name: 'Java', level: 75 },
+        { name: 'Node.js', level: 70 },
         { name: 'PHP', level: 80 },
-        { name: 'C#', level: 80 },
+        { name: 'C#', level: 70 },
       ]
     },
     {
@@ -36,17 +37,17 @@ const Skills: React.FC = () => {
       icon: <Smartphone size={24} />,
       title: 'Mobile',
       skills: [
-        { name: 'React Native', level: 80 },
-        { name: 'Flutter', level: 70 },
-        { name: 'Kotlin', level: 75 }
+        { name: 'React Native', level: 30 },
+        { name: 'Flutter', level: 50 },
+        { name: 'Kotlin', level: 60 }
       ]
     },
     {
       icon: <Palette size={24} />,
       title: 'Design & UX',
       skills: [
-        { name: 'Figma', level: 80 },
-        { name: 'Canva', level: 70 }
+        { name: 'Figma', level: 70 },
+        { name: 'Canva', level: 80 }
       ]
     }
   ];

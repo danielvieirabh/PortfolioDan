@@ -128,7 +128,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://github.com/Danzinxit"
+                  href="https://github.com/danielvieirabh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-violet-100 dark:hover:bg-violet-900/30 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300"

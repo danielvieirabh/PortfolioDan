@@ -16,7 +16,7 @@ const About: React.FC = () => {
     },
     {
       icon: <Cpu size={24} />,
-      title: 'Arquitetura de Software',
+      title: 'Desenvolvimento Back-End',
       description: 'Capacidade de projetar e implementar arquiteturas escaláveis e eficientes.'
     },
   ];
@@ -34,11 +34,11 @@ const About: React.FC = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ml-20">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
+            className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300 "
           >
             <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-violet-100 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 mb-4">
               {skill.icon}

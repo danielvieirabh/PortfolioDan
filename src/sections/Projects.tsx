@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: 'Projeto Freelance (Grupo-Elite)',
-      description: 'Plataforma de e-commerce especializada em produtos de streetwear e moda urbana.',
+      description: 'Plataforma de e-commerce de ferramentas (Free-Lance)',
       image: '/freela.png',
       tags: ['React', 'Node.js', 'MySql'],
       liveUrl: 'https://www.grupoeliterepresentacoes.com.br/',
